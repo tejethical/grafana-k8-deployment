@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  grafana:
+    # image: agmtpd/grafana:latest-dev
+    build: 
+      context: ./grafana 
+    ports:
+      - 3000:3000

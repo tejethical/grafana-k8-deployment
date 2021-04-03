@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  grafana:
+    image: agmtpd/grafana:latest
+    ports:
+      - 3000:3000
